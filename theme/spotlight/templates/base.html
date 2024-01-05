@@ -11,7 +11,6 @@
         <link rel="manifest" href="/{{ THEME_STATIC_DIR }}/images/favicon/site.webmanifest">
         <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" crossorigin="anonymous">
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
         {% endif %}
@@ -111,14 +110,14 @@
                             </h1>
                             <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
                                 {% block content_subtitle %}
-                                Hi, I'm Deepa Venkatraman, freelance journalist covering lifestyle and 
-                                entertainment in South India. I write for many media outlets
+                                Hi, I'm Deepa Venkatraman, freelance journalist covering lifestyle, startups,
+                                human interest and entertainment in South India. I write for many media outlets
                                 including The Hindu, The News Minute, Mylapore Times, The Week and many others. 
                                 Message me on instagram @deepavraman to get in touch.
                                 {% endblock %}
                             </p>
-                            </div>
                         {% endblock %}
+                            </div>
                         {% block content %}
                         {% endblock %}
                         </div>
