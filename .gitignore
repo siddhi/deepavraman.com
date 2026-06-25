@@ -2,3 +2,6 @@ output/
 __pycache__/
 seo_report.html
 node_modules/
+sync-agent/.venv/
+sync-agent/state.json
+sync-agent/uv.lock
