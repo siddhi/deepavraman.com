@@ -2,3 +2,7 @@ output/
 __pycache__/
 seo_report.html
 node_modules/
+.venv/
+.env
+*.log
+article-preview/
