@@ -3,6 +3,7 @@ SITENAME = 'Deepa Venkatraman'
 SITEURL = "https://www.deepavraman.com"
 
 PATH = "content"
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'Asia/Kolkata'
 
